@@ -47,8 +47,8 @@ prompt_template_for_title = PromptTemplate(
 title_chain = prompt_template_for_title | llm # Create a chain for title generation
 
 ## Working on UI with the help of streamlit
-st.title("AI Blog Content Assistant...🤖")
-st.header("Create High-Quality Blog Content Without Breaking the Bank")
+st.title("AI Blog Content Generator...🤖")
+st.header("Create high-quality blog content of your choice with suitable title")
 
 st.subheader('Title Generation') # Display a subheader for the title generation section
 topic_expander = st.expander("Input the topic") # Create an expander for topic input
